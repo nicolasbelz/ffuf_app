@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Search Results</h1>
+    <p>Results for your search "<strong>{{ query }}</strong>" are displayed here.</p>
+    <!-- Imagine we have a list of search results to iterate over -->
+    <ul>
+        {% for result in search_results %}
+        <li>{{ result }}</li>
+        {% else %}
+        <li>No results found.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

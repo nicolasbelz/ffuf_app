@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FFUF Testing App</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="navbar">
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('about') }}">About</a>
+        <a href="{{ url_for('contact') }}">Contact</a>
+        <a href="{{ url_for('product_detail', product_id='1') }}">Product Details</a>
+        <a href="{{ url_for('search') }}">Search</a>
+        <!-- Add any other links you need here -->
+    </div>
+    <div class="content">
+        {% block content %}
+        <!-- The unique content of each page will be rendered here -->
+        {% endblock %}
+    </div>
+</body>
+</html>

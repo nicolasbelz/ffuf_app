@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #121212; /* Dark background for the body */
+    color: #e0e0e0; /* Light text color for contrast */
+}
+
+.navbar {
+    background-color: #1a1a1a; /* Slightly lighter dark shade for the navbar */
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #e0e0e0; /* Light grey color for the text */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #333; /* Dark grey background for hover */
+    color: white; /* White text color for hover */
+}
+
+/* Styling for form elements */
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #1a1a1a; /* Dark background for input fields */
+    color: white; /* White text color for input fields */
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #555;
+}
+
+/* Additional styles */
+.content {
+    background-color: #1a1a1a; /* Dark background for content area */
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #f0f0f0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding: 8px;
+    background-color: #333; /* Dark background for list items */
+    margin-bottom: 5px;
+    border-radius: 3px;
+}

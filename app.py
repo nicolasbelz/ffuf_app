@@ -34,6 +34,10 @@ def search():
 
 # Rest of the original fuzzing endpoints...
 
+@app.route('/directory_fuzzing/')
+def directory_dir_fuzzing():
+    return render_template('directory.html')
+
 @app.route('/directory_fuzzing/secret_endpoint/')
 def directory_fuzzing():
     return "You found the secret endpoint for directory fuzzing!"

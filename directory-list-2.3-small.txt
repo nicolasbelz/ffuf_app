@@ -13,6 +13,24 @@
 #
 
 directory_fuzzing
+directory_fuzzing
+directory_fuzzingv2
+page_fuzzing
+/page_fuzzing
+secret_endpoint
+secret_endpoint/
+/secret_endpoint/
+secret_page
+secret_pagev2
+recursive_fuzzing
+level1
+level2
+secret
+parameter_fuzzing
+secret_param
+secret_value
+value_fuzzing
+
 index
 images
 download
